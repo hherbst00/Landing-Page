@@ -36,6 +36,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -48,7 +49,7 @@ h1 {
     color: #E5E7EB;
 }
 
-button {
+#button-one {
     width: 100px;
     background-color: #3882F6;
     color: #F9FAF8;
@@ -57,12 +58,13 @@ button {
     border-color: #3882F6;
 }
 
-img {
+.main-right {
     display: flex;
     flex-direction: row;
     width: 500px;
     height: 300px;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 .main-content {
@@ -70,3 +72,101 @@ img {
     flex-direction: row;
     justify-content: center;
 }
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-second {
+    display: flex;
+    justify-content: center;
+}
+
+#head-second {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.one, .two, .three, .four {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.captions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 125px;
+    margin-bottom: 50px;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+
+#quote {
+    font-size: 36px;
+    font: light;
+    color: #1F2937
+}
+
+#thor {
+    font-size: 20px;
+    font-weight: bold;
+    color:#1F2937
+    display: flex;
+    align-self: flex-end;
+}
+
+.fourth-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 25px;
+}
+
+.fourth-left {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#button-two {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 100px;
+    border-radius: 25px;
+    border-color: #E5E7EB;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px;
+}
+
+
+
+
+
